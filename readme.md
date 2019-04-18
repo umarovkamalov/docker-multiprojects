@@ -18,7 +18,14 @@ mv env.example .env
 
 
 docker-compose build nginx mysql workspace phpmyadmin
-docker-compose up build nginx mysql workspace phpmyadmin
+
+this is a team
+docker-compose up build nginx mysql workspace phpmyadmin 
+  
+either so
+docker-compose up nginx mysql workspace phpmyadmin
+or so
+docker-compose build nginx mysql workspace phpmyadmin
 ```
 if add your site to nginx ``` docker-compose nginx restart ```
 add your conf multiprojects path laradock\nginx\sites\
